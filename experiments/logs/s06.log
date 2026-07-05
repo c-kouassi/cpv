@@ -1,0 +1,40 @@
+/private/tmp/claude-501/-Users-chocobain-Downloads-projet-VIT-NLP-main/fcd92b0a-11ac-4836-89a6-27a78e19a541/scratchpad/venv_htr/lib/python3.12/site-packages/coremltools/models/model.py:628: RuntimeWarning: You will not be able to run predict() on this Core ML model. Underlying exception message was: Error compiling model: "compiler error: Error reading protobuf spec. validator error: Input MLMultiArray to neural networks must have dimension 1 (vector) or 3 (image-like arrays).".
+  _warnings.warn(
+Sélection sur la validation : {'pretraitement_inference': 'redresse', 'cer_val_par_variante': {'brut': 0.028068584617921027, 'redresse': 0.022998928365344985}, 'ece_val_brute': 0.156257, 'ece_val_calibree': 0.0}
+/private/tmp/claude-501/-Users-chocobain-Downloads-projet-VIT-NLP-main/fcd92b0a-11ac-4836-89a6-27a78e19a541/scratchpad/venv_htr/lib/python3.12/site-packages/kraken/rpred.py:339: UserWarning: Using legacy polygon extractor, as the model was not trained with the new method. Please retrain your model to get speed improvement.
+  warnings.warn('Using legacy polygon extractor, as the model was not trained with the new method. Please retrain your model to get speed improvement.')
+/private/tmp/claude-501/-Users-chocobain-Downloads-projet-VIT-NLP-main/fcd92b0a-11ac-4836-89a6-27a78e19a541/scratchpad/venv_htr/lib/python3.12/site-packages/kraken/lib/segmentation.py:1098: RuntimeWarning: invalid value encountered in divide
+  t1 = (v[:, 0] * u[:, 1] - v[:, 1] * u[:, 0]) / (z + np.finfo(float).eps)
+/private/tmp/claude-501/-Users-chocobain-Downloads-projet-VIT-NLP-main/fcd92b0a-11ac-4836-89a6-27a78e19a541/scratchpad/venv_htr/lib/python3.12/site-packages/kraken/lib/segmentation.py:1099: RuntimeWarning: divide by zero encountered in divide
+  t2 = np.dot(u, w) / (z + np.finfo(float).eps)
+/private/tmp/claude-501/-Users-chocobain-Downloads-projet-VIT-NLP-main/fcd92b0a-11ac-4836-89a6-27a78e19a541/scratchpad/venv_htr/lib/python3.12/site-packages/kraken/lib/segmentation.py:1098: RuntimeWarning: divide by zero encountered in divide
+  t1 = (v[:, 0] * u[:, 1] - v[:, 1] * u[:, 0]) / (z + np.finfo(float).eps)
+{
+ "selection_validation": {
+  "pretraitement_inference": "redresse",
+  "cer_val_par_variante": {
+   "brut": 0.028068584617921027,
+   "redresse": 0.022998928365344985
+  },
+  "ece_val_brute": 0.156257,
+  "ece_val_calibree": 0.0
+ },
+ "bout_en_bout": {
+  "lignes_reference": 1532,
+  "cer": 0.03940165150044858,
+  "cer_ic95": [
+   0.03424506935442313,
+   0.04563959797506274
+  ],
+  "wer": 0.18705314009661836,
+  "iou_lignes_moyenne": 0.8360687816681066,
+  "part_lignes_iou_sup_seuil": 0.9797650130548303,
+  "detection_f1_moyen": 0.9218467116158554,
+  "iou_zones": {
+   "texte": 0.8534803162004705,
+   "illustration": 0.8216828050905449,
+   "paratexte": 0.0
+  }
+ }
+}
+base 0.10262372521376129 affiné 0.027647069593716243 McNemar {'b': 24, 'c': 581, 'p_value': 9.221878782686495e-140, 'critere': 'ligne correcte si CER <= 0.0', 'lignes_correctes_base': 108, 'lignes_correctes_affine': 665}

@@ -1,0 +1,4 @@
+partition,livres,pages,lignes,caracteres,longueur_moyenne,taux_abreviation,lignes_avec_abreviation,sha256
+train,10,134,6872,260996,38.0,0.0292,0.53,40741e0782826313afdee876361fd6093a121c7e681db49b9eac4fcb676b1d39
+val,3,40,1750,73115,41.8,0.0145,0.387,4a04e47a4da21c27fb62bffacb8916c53f9007dcc6714e3661f17076b3d6ae64
+test,3,35,1532,55046,35.9,0.0143,0.32,d976bebc7bcae217f447c675e9baaa9518eee75e61cf0b97876cd820a72e545e

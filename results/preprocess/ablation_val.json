@@ -1,0 +1,138 @@
+{
+ "meilleure": "redresse",
+ "pages": [
+  "bpt6k15202315/bpt6k15202315__f11",
+  "bpt6k15202315/bpt6k15202315__f22",
+  "bpt6k15202315/bpt6k15202315__f41",
+  "bpt6k15202315/bpt6k15202315__f55",
+  "bpt6k324358v/bpt6k324358v__bpt6k324358v_f21",
+  "bpt6k324358v/bpt6k324358v__bpt6k324358v_f23",
+  "bpt6k324358v/bpt6k324358v__bpt6k324358v_f25",
+  "bpt6k324358v/bpt6k324358v__bpt6k324358v_f27",
+  "bpt6k8710026t/bpt6k8710026t__bpt6k8710026t_f11",
+  "bpt6k8710026t/bpt6k8710026t__bpt6k8710026t_f13",
+  "bpt6k8710026t/bpt6k8710026t__bpt6k8710026t_f15",
+  "bpt6k8710026t/bpt6k8710026t__bpt6k8710026t_f17"
+ ],
+ "variantes": {
+  "brut": {
+   "lignes_reference": 596,
+   "cer": 0.0853598219437804,
+   "cer_ic95": [
+    0.07758067543159054,
+    0.09468454495382542
+   ],
+   "wer": 0.3643841250257043,
+   "iou_lignes_moyenne": 0.8203899647439105,
+   "part_lignes_iou_sup_seuil": 0.9697986577181208,
+   "detection_f1_moyen": 0.9747303400165467,
+   "iou_zones": {
+    "texte": 0.9107753942806555,
+    "illustration": 0.4228362217492652,
+    "paratexte": 0.0
+   }
+  },
+  "gris": {
+   "lignes_reference": 596,
+   "cer": 0.08441183744126618,
+   "cer_ic95": [
+    0.07626109252221061,
+    0.09391478150897645
+   ],
+   "wer": 0.360065803002262,
+   "iou_lignes_moyenne": 0.8206894636849356,
+   "part_lignes_iou_sup_seuil": 0.9714765100671141,
+   "detection_f1_moyen": 0.977026429204037,
+   "iou_zones": {
+    "texte": 0.9109797351375001,
+    "illustration": 0.44373293095062916,
+    "paratexte": 0.0
+   }
+  },
+  "redresse": {
+   "lignes_reference": 596,
+   "cer": 0.07864149699117962,
+   "cer_ic95": [
+    0.0743892655447613,
+    0.08271723114570181
+   ],
+   "wer": 0.3543080403043389,
+   "iou_lignes_moyenne": 0.823316477130294,
+   "part_lignes_iou_sup_seuil": 0.9731543624161074,
+   "detection_f1_moyen": 0.9761909853428978,
+   "iou_zones": {
+    "texte": 0.9076591591377005,
+    "illustration": 0.43417630897821075,
+    "paratexte": 0.0
+   }
+  },
+  "clahe": {
+   "lignes_reference": 596,
+   "cer": 0.0946335833814195,
+   "cer_ic95": [
+    0.08656131713347863,
+    0.10365204180259445
+   ],
+   "wer": 0.3882377133456714,
+   "iou_lignes_moyenne": 0.8426546556806054,
+   "part_lignes_iou_sup_seuil": 0.9714765100671141,
+   "detection_f1_moyen": 0.9762566217409935,
+   "iou_zones": {
+    "texte": 0.9048245317974927,
+    "illustration": 0.42116385928532174,
+    "paratexte": 0.0
+   }
+  },
+  "debruite_clahe": {
+   "lignes_reference": 596,
+   "cer": 0.09088286208886324,
+   "cer_ic95": [
+    0.08311704865770797,
+    0.10098601296401429
+   ],
+   "wer": 0.37363767221879496,
+   "iou_lignes_moyenne": 0.8204611758457093,
+   "part_lignes_iou_sup_seuil": 0.9714765100671141,
+   "detection_f1_moyen": 0.9750273735650392,
+   "iou_zones": {
+    "texte": 0.9024197480806403,
+    "illustration": 0.40959756528355207,
+    "paratexte": 0.0
+   }
+  },
+  "fond_clahe": {
+   "lignes_reference": 596,
+   "cer": 0.09343829857390157,
+   "cer_ic95": [
+    0.08812641738091945,
+    0.09931962009357279
+   ],
+   "wer": 0.3913222290767016,
+   "iou_lignes_moyenne": 0.8280700693282842,
+   "part_lignes_iou_sup_seuil": 0.9731543624161074,
+   "detection_f1_moyen": 0.9528275740012618,
+   "iou_zones": {
+    "texte": 0.894602110347221,
+    "illustration": 0.5210253380596035,
+    "paratexte": 0.0
+   }
+  },
+  "sauvola": {
+   "lignes_reference": 596,
+   "cer": 0.13391311515950868,
+   "cer_ic95": [
+    0.12649954496261662,
+    0.14174206079123375
+   ],
+   "wer": 0.4910549043800123,
+   "iou_lignes_moyenne": 0.7499581617472191,
+   "part_lignes_iou_sup_seuil": 0.9681208053691275,
+   "detection_f1_moyen": 0.9202977130228728,
+   "iou_zones": {
+    "texte": 0.872438426754623,
+    "illustration": 0.45420478673812487,
+    "paratexte": 0.0
+   }
+  }
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "meilleur": "blla_affine",
+ "chemin": "/Users/chocobain/Downloads/projet_VIT_NLP-main/models/kraken/segmentation/best_0.3594.safetensors",
+ "pages": 40,
+ "resultats": {
+  "blla_defaut": {
+   "lignes_reference": 1750,
+   "cer": 0.3333103429249317,
+   "cer_ic95": [
+    0.30598331258381584,
+    0.3637111995011676
+   ],
+   "wer": 0.5606028888423696,
+   "iou_lignes_moyenne": 0.7420837739390029,
+   "part_lignes_iou_sup_seuil": 0.8468571428571429,
+   "detection_f1_moyen": 0.919825919292569,
+   "iou_zones": {
+    "texte": 0.9047914302897527,
+    "illustration": 0.0,
+    "paratexte": 0.0
+   }
+  },
+  "blla_affine": {
+   "lignes_reference": 1750,
+   "cer": 0.08124810329130687,
+   "cer_ic95": [
+    0.07722947654526811,
+    0.08632593152652264
+   ],
+   "wer": 0.3487544483985765,
+   "iou_lignes_moyenne": 0.8243808420149116,
+   "part_lignes_iou_sup_seuil": 0.9731428571428572,
+   "detection_f1_moyen": 0.9773798719178041,
+   "iou_zones": {
+    "texte": 0.918907997453749,
+    "illustration": 0.4063981916017593,
+    "paratexte": 7.629219912263972e-05
+   }
+  }
+ }
+}

@@ -1,0 +1,159 @@
+ketos --workers 0 -d cpu -s 42 train -f alto -i /Users/chocobain/Downloads/projet_VIT_NLP-main/models/kraken/mcfrench.mlmodel --resize union -q early --lag 3 --min-epochs 4 -N 15 -B 16 -r 0.0001 --no-augment -o /Users/chocobain/Downloads/projet_VIT_NLP-main/models/kraken/htr_ft -t /Users/chocobain/Downloads/projet_VIT_NLP-main/data/corpus/train.txt -e /Users/chocobain/Downloads/projet_VIT_NLP-main/data/corpus/val.txt
+[10/17/26 02:16:36] WARNING  Text line " " is empty after     recognition.py:415
+                             transformations                                    
+GPU available: True (mps), used: False
+TPU available: False, using: 0 TPU cores
+💡 Tip: For seamless cloud logging and experiment tracking, try installing [litlogger](https://pypi.org/project/litlogger/) to enable LitLogger, which logs metrics and artifacts automatically to the Lightning Experiments platform.
+`Trainer(val_check_interval=1.0)` was configured so validation will run at the end of the training epoch..
+Loading from checkpoint /Users/chocobain/Downloads/projet_VIT_NLP-main/models/kraken/mcfrench.mlmodel.
+[10/17/26 02:16:37] WARNING  alphabet mismatch: chars in training    vgsl.py:234
+                             set only: {'8', 'Y', ']', 'ꝙ', 'Ι',                
+                             '4', '[', '9', 'ᷤ', 'ͣ', '⟧', 'ͤ', '̶',                
+                             'é', '2', 'ͨ', "'", 'ď', 'ͬ', '|', '5',              
+                             'w', 'Ꝙ', '0', '1', '⟦', '7', 'k', 'Ẽ'}            
+                             (not included in accuracy test during              
+                             training)                                          
+                    WARNING  alphabet mismatch: chars in validation  vgsl.py:238
+                             set only: {'?', 'X', '*', 'æ'} (not                
+                             trained)                                           
+                    WARNING  Neural network has been trained on mode vgsl.py:563
+                             L images, training set contains mode 1             
+                             data. Consider binarizing your data.               
+                    WARNING  model will be flagged to use new        vgsl.py:594
+┏━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━┓
+┃   ┃                 ┃          ┃        ┃       ┃       ┃          ┃     Out ┃
+┃   ┃ Name            ┃ Type     ┃ Params ┃ Mode  ┃ FLOPs ┃ In sizes ┃   sizes ┃
+┡━━━╇━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━┩
+│ 0 │ net             │ TorchVG… │  5.7 M │ train │ 842 M │  [[1, 1, │    [[1, │
+│   │                 │          │        │       │       │     120, │ 179, 1, │
+│   │                 │          │        │       │       │    400], │    49], │
+│   │                 │          │        │       │       │     '?'] │    '?'] │
+│ 1 │ net.nn          │ MultiPa… │  5.7 M │ train │ 842 M │  [[1, 1, │    [[1, │
+│   │                 │          │        │       │       │     120, │ 179, 1, │
+│   │                 │          │        │       │       │    400], │    49], │
+│   │                 │          │        │       │       │     '?'] │    '?'] │
+│ 2 │ net._aux_layers │ ModuleD… │      0 │ train │     0 │        ? │       ? │
+│ 3 │ net.criterion   │ CTCLoss  │      0 │ train │     0 │        ? │       ? │
+│ 4 │ val_cer         │ CharErr… │      0 │ train │     0 │        ? │       ? │
+│ 5 │ val_wer         │ WordErr… │      0 │ train │     0 │        ? │       ? │
+└───┴─────────────────┴──────────┴────────┴───────┴───────┴──────────┴─────────┘
+Trainable params: 5.7 M                                                         
+Non-trainable params: 0                                                         
+Total params: 5.7 M                                                             
+Total estimated model params size (MB): 22                                      
+Modules in train mode: 37                                                       
+Modules in eval mode: 0                                                         
+Total FLOPs: 842 M                                                              
+stage 0/∞ ━━━━━━━━━━━━ 430/430 0:43:24 •    0.22it/s train_loss_s… early_stoppi…
+                               0:00:00               26.213        0/3 0.96265  
+                                                     val_accuracy:              
+                                                     0.963                      
+                                                     val_word_acc…              
+                                                     0.802                      
+                                                     train_loss_e…              
+                                                     196.927                    
+stage 1/∞ ━━━━━━━━━━━━ 430/430 0:38:21 •    0.18it/s train_loss_s… early_stoppi…
+                               0:00:00               35.756        0/3 0.96720  
+                                                     val_accuracy:              
+                                                     0.967                      
+                                                     val_word_acc…              
+                                                     0.813                      
+                                                     train_loss_e…              
+                                                     109.097                    
+stage 2/∞ ━━━━━━━━━━━━ 430/430 0:37:47 •    0.20it/s train_loss_s… early_stoppi…
+                               0:00:00               135.035       0/3 0.96998  
+                                                     val_accuracy:              
+                                                     0.970                      
+                                                     val_word_acc…              
+                                                     0.829                      
+                                                     train_loss_e…              
+                                                     83.920                     
+stage 3/∞ ━━━━━━━━━━━━ 430/430 0:37:32 •    0.21it/s train_loss_s… early_stoppi…
+                               0:00:00               48.717        0/3 0.97125  
+                                                     val_accuracy:              
+                                                     0.971                      
+                                                     val_word_acc…              
+                                                     0.833                      
+                                                     train_loss_e…              
+                                                     70.371                     
+stage 4/∞ ━━━━━━━━━━━━ 430/430 0:37:24 •    0.19it/s train_loss_s… early_stoppi…
+                               0:00:00               22.599        0/3 0.97238  
+                                                     val_accuracy:              
+                                                     0.972                      
+                                                     val_word_acc…              
+                                                     0.843                      
+                                                     train_loss_e…              
+                                                     59.729                     
+stage 5/∞ ━━━━━━━━━━━━ 430/430 0:37:22 •    0.22it/s train_loss_s… early_stoppi…
+                               0:00:00               6.950         0/3 0.97263  
+                                                     val_accuracy:              
+                                                     0.973                      
+                                                     val_word_acc…              
+                                                     0.841                      
+                                                     train_loss_e…              
+                                                     52.900                     
+stage 6/∞ ━━━━━━━━━━━━ 430/430 0:37:24 •    0.22it/s train_loss_s… early_stoppi…
+                               0:00:00               36.675        0/3 0.97320  
+                                                     val_accuracy:              
+                                                     0.973                      
+                                                     val_word_acc…              
+                                                     0.845                      
+                                                     train_loss_e…              
+                                                     47.457                     
+stage 7/∞ ━━━━━━━━━━━━ 430/430 0:37:25 •    0.21it/s train_loss_s… early_stoppi…
+                               0:00:00               29.174        1/3 0.97320  
+                                                     val_accuracy:              
+                                                     0.973                      
+                                                     val_word_acc…              
+                                                     0.843                      
+                                                     train_loss_e…              
+                                                     42.836                     
+stage 8/∞ ━━━━━━━━━━━━ 430/430 0:37:25 •    0.22it/s train_loss_s… early_stoppi…
+                               0:00:00               37.538        2/3 0.97320  
+                                                     val_accuracy:              
+                                                     0.973                      
+                                                     val_word_acc…              
+                                                     0.844                      
+                                                     train_loss_e…              
+                                                     39.020                     
+stage 9/∞ ━━━━━━━━━━━━ 430/430 0:37:26 •    0.21it/s train_loss_s… early_stoppi…
+                               0:00:00               1.572         0/3 0.97328  
+                                                     val_accuracy:              
+                                                     0.973                      
+                                                     val_word_acc…              
+                                                     0.845                      
+                                                     train_loss_e…              
+                                                     35.937                     
+stage 10/∞ ━━━━━━━━━━━━ 430/430 0:37:02 •    0.20it/s train_loss_… early_stoppi…
+                                0:00:00               15.187       0/3 0.97365  
+                                                      val_accurac…              
+                                                      0.974                     
+                                                      val_word_ac…              
+                                                      0.845                     
+                                                      train_loss_…              
+                                                      32.825                    
+stage 11/∞ ━━━━━━━━━━━━ 430/430 0:37:24 •    0.20it/s train_loss_… early_stoppi…
+                                0:00:00               29.415       1/3 0.97365  
+                                                      val_accurac…              
+                                                      0.973                     
+                                                      val_word_ac…              
+                                                      0.844                     
+                                                      train_loss_…              
+                                                      30.655                    
+stage 12/∞ ━━━━━━━━━━━━ 430/430 0:37:28 •    0.20it/s train_loss_… early_stoppi…
+                                0:00:00               7.862        2/3 0.97365  
+                                                      val_accurac…              
+                                                      0.973                     
+                                                      val_word_ac…              
+                                                      0.842                     
+                                                      train_loss_…              
+                                                      27.542                    
+stage 13/∞ ━━━━━━━━━━━━ 430/430 0:37:29 •    0.22it/s train_loss_… early_stoppi…
+                                0:00:00               22.177       3/3 0.97365  
+                                                      val_accurac…              
+                                                      0.973                     
+                                                      val_word_ac…              
+                                                      0.842                     
+                                                      train_loss_…              
+                                                      26.119                    
+Converting best model /Users/chocobain/Downloads/projet_VIT_NLP-main/models/kraken/htr_ft/checkpoint_10-0.9737.ckpt (score: 0.9737) to weights file /Users/chocobain/Downloads/projet_VIT_NLP-main/models/kraken/htr_ft/best_0.9737.safetensors

@@ -1,0 +1,17 @@
+livre,jeu,siecle,partition,pages,lignes,caracteres,longueur_moyenne,taux_abreviation,lignes_avec_abreviation
+bpt6k10516302,incunables_15e,XVe,train,10,224,14211,63.4,0.0259,0.661
+bpt6k1057722q,incunables_15e,XVe,test,10,822,29519,35.9,0.012,0.271
+bpt6k1057726c,incunables_15e,XVe,train,10,516,15705,30.4,0.0351,0.547
+bpt6k15202315,gothiques_16e,XVIe,val,20,573,26400,46.1,0.0082,0.305
+bpt6k1520377h,gothiques_16e,XVIe,test,20,385,13796,35.8,0.0095,0.19
+bpt6k1521441j,incunables_15e,XVe,train,5,141,8262,58.6,0.0184,0.44
+bpt6k15223596,incunables_15e,XVe,train,19,1292,51574,39.9,0.0482,0.822
+bpt6k15260973,incunables_15e,XVe,train,20,424,13960,32.9,0.0028,0.061
+bpt6k324358v,incunables_15e,XVe,val,10,910,37800,41.5,0.0213,0.512
+bpt6k8710026t,incunables_15e,XVe,val,10,267,8915,33.4,0.0044,0.139
+bpt6k8713143m,incunables_15e,XVe,test,5,325,11731,36.1,0.0257,0.6
+btv1b8600118k,gothiques_16e,XVIe,train,20,1589,53951,34.0,0.0275,0.585
+btv1b8600143n,incunables_15e,XVe,train,10,374,20812,55.6,0.0468,0.85
+btv1b8600164t,incunables_15e,XVe,train,20,1382,40710,29.5,0.0167,0.281
+btv1b8626772v,incunables_15e,XVe,train,10,606,23029,38.0,0.0116,0.276
+btv1b8626779r,incunables_15e,XVe,train,10,324,18782,58.0,0.033,0.79

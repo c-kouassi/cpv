@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/htr-charles-viii-1494-2026/schemas/data_contract.schema.json",
+  "title": "Data contract — transcriptions HTR livrées au Volet 2",
+  "type": "object",
+  "required": ["schema_version", "document", "coordinate_system", "pipeline", "pages", "stats"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "document": {
+      "type": "object",
+      "required": ["id", "title", "source", "licence", "url"],
+      "properties": {
+        "id": {"type": "string"},
+        "title": {"type": "string"},
+        "source": {"type": "string"},
+        "licence": {"type": "string"},
+        "url": {"type": "string"}
+      }
+    },
+    "coordinate_system": {
+      "type": "object",
+      "required": ["origin", "unit", "x_axis", "y_axis", "reference"],
+      "properties": {
+        "origin": {"const": "top-left"},
+        "unit": {"const": "pixel"},
+        "x_axis": {"const": "right"},
+        "y_axis": {"const": "down"},
+        "reference": {"type": "string"}
+      }
+    },
+    "pipeline": {
+      "type": "object",
+      "required": ["preprocessing", "segmentation_model", "htr_model", "calibration", "created"],
+      "properties": {
+        "preprocessing": {"type": "object"},
+        "segmentation_model": {"type": "object"},
+        "htr_model": {"type": "object"},
+        "calibration": {"type": "object"},
+        "created": {"type": "string"},
+        "git_commit": {"type": ["string", "null"]}
+      }
+    },
+    "pages": {"type": "array", "items": {"$ref": "#/$defs/page"}},
+    "stats": {
+      "type": "object",
+      "required": ["pages", "lines", "needs_review", "needs_review_rate"],
+      "properties": {
+        "pages": {"type": "integer", "minimum": 0},
+        "lines": {"type": "integer", "minimum": 0},
+        "needs_review": {"type": "integer", "minimum": 0},
+        "needs_review_rate": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    }
+  },
+  "$defs": {
+    "point": {"type": "array", "items": {"type": "integer"}, "minItems": 2, "maxItems": 2},
+    "polygon": {"type": "array", "items": {"$ref": "#/$defs/point"}, "minItems": 3},
+    "polyline": {"type": "array", "items": {"$ref": "#/$defs/point"}, "minItems": 2},
+    "page": {
+      "type": "object",
+      "required": ["page_id", "page_number", "image", "width", "height", "role", "skew_angle",
+                   "pagexml", "regions", "lines"],
+      "additionalProperties": false,
+      "properties": {
+        "page_id": {"type": "string"},
+        "page_number": {"type": "integer", "minimum": 1},
+        "image": {"type": "string"},
+        "image_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "width": {"type": "integer", "minimum": 1},
+        "height": {"type": "integer", "minimum": 1},
+        "role": {"type": "string"},
+        "skew_angle": {"type": "number"},
+        "pagexml": {"type": "string"},
+        "dropped_lines_in_illustrations": {"type": "integer", "minimum": 0},
+        "regions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["region_id", "type", "polygon"],
+            "properties": {
+              "region_id": {"type": "string"},
+              "type": {"enum": ["texte", "illustration", "paratexte", "text"]},
+              "polygon": {"$ref": "#/$defs/polygon"}
+            }
+          }
+        },
+        "lines": {"type": "array", "items": {"$ref": "#/$defs/line"}}
+      }
+    },
+    "line": {
+      "type": "object",
+      "required": ["line_id", "order", "text", "baseline", "polygon", "confidence_raw", "confidence",
+                   "char_confidences", "needs_review", "review_reasons"],
+      "additionalProperties": false,
+      "properties": {
+        "line_id": {"type": "string"},
+        "order": {"type": "integer", "minimum": 0},
+        "region_type": {"type": ["string", "null"]},
+        "text": {"type": "string"},
+        "text_normalized": {"type": "string"},
+        "baseline": {"$ref": "#/$defs/polyline"},
+        "polygon": {"$ref": "#/$defs/polygon"},
+        "confidence_raw": {"type": "number", "minimum": 0, "maximum": 1},
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1,
+                       "description": "Probabilité calibrée que le CER de la ligne soit ≤ 5 %"},
+        "char_confidences": {"type": "array", "items": {"type": "number", "minimum": 0, "maximum": 1}},
+        "needs_review": {"type": "boolean"},
+        "review_reasons": {"type": "array", "items": {"enum": ["low_confidence", "short_line", "outside_image", "empty"]}}
+      }
+    }
+  }
+}

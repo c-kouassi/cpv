@@ -1,0 +1,307 @@
+{
+ "source": "validation (graine 42, 60 lignes de 10 caract\u00e8res ou plus)",
+ "modele": "charles8_htr_ft",
+ "cer_reference": 0.0307,
+ "lignes": [
+  {
+   "book": "bpt6k15202315",
+   "page": "f23",
+   "line_id": "line_6"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f23",
+   "line_id": "line_59"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f21",
+   "line_id": "line_34"
+  },
+  {
+   "book": "bpt6k15202315",
+   "page": "f51",
+   "line_id": "line_22"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f27",
+   "line_id": "line_5"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f26",
+   "line_id": "line_47"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f25",
+   "line_id": "line_66"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f24",
+   "line_id": "line_9"
+  },
+  {
+   "book": "bpt6k15202315",
+   "page": "f51",
+   "line_id": "line_12"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f23",
+   "line_id": "line_31"
+  },
+  {
+   "book": "bpt6k15202315",
+   "page": "f39",
+   "line_id": "line_2"
+  },
+  {
+   "book": "bpt6k15202315",
+   "page": "f51",
+   "line_id": "line_20"
+  },
+  {
+   "book": "bpt6k8710026t",
+   "page": "bpt6k8710026t_f23",
+   "line_id": "eSc_line_5225d5e7"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f22",
+   "line_id": "eSc_line_40a63a7d"
+  },
+  {
+   "book": "bpt6k15202315",
+   "page": "f15",
+   "line_id": "line_15"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f79",
+   "line_id": "line_36"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f21",
+   "line_id": "line_48"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f21",
+   "line_id": "line_44"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f23",
+   "line_id": "line_8"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f25",
+   "line_id": "line_47"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f26",
+   "line_id": "line_14"
+  },
+  {
+   "book": "bpt6k8710026t",
+   "page": "bpt6k8710026t_f16",
+   "line_id": "eSc_line_54ed3389"
+  },
+  {
+   "book": "bpt6k15202315",
+   "page": "f18",
+   "line_id": "line_13"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f21",
+   "line_id": "line_37"
+  },
+  {
+   "book": "bpt6k15202315",
+   "page": "f11",
+   "line_id": "line_11"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f25",
+   "line_id": "line_54"
+  },
+  {
+   "book": "bpt6k15202315",
+   "page": "f43",
+   "line_id": "line_25"
+  },
+  {
+   "book": "bpt6k15202315",
+   "page": "f23",
+   "line_id": "line_27"
+  },
+  {
+   "book": "bpt6k15202315",
+   "page": "f41",
+   "line_id": "line_24"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f79",
+   "line_id": "line_31"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f25",
+   "line_id": "line_60"
+  },
+  {
+   "book": "bpt6k8710026t",
+   "page": "bpt6k8710026t_f11",
+   "line_id": "eSc_line_d09e4756"
+  },
+  {
+   "book": "bpt6k15202315",
+   "page": "f15",
+   "line_id": "line_12"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f27",
+   "line_id": "line_19"
+  },
+  {
+   "book": "bpt6k15202315",
+   "page": "f59",
+   "line_id": "line_16"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f21",
+   "line_id": "line_15"
+  },
+  {
+   "book": "bpt6k15202315",
+   "page": "f55",
+   "line_id": "line_0"
+  },
+  {
+   "book": "bpt6k15202315",
+   "page": "f59",
+   "line_id": "line_9"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f24",
+   "line_id": "eSc_line_9109fdd8"
+  },
+  {
+   "book": "bpt6k15202315",
+   "page": "f41",
+   "line_id": "line_17"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f79",
+   "line_id": "line_37"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f28",
+   "line_id": "line_13"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f24",
+   "line_id": "line_57"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f25",
+   "line_id": "line_34"
+  },
+  {
+   "book": "bpt6k15202315",
+   "page": "f55",
+   "line_id": "line_9"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f28",
+   "line_id": "eSc_line_a0d1f040"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f23",
+   "line_id": "line_6"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f50",
+   "line_id": "eSc_line_7d6cc896"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f23",
+   "line_id": "line_16"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f28",
+   "line_id": "line_79"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f28",
+   "line_id": "eSc_line_920c1b52"
+  },
+  {
+   "book": "bpt6k15202315",
+   "page": "f18",
+   "line_id": "line_17"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f26",
+   "line_id": "line_40"
+  },
+  {
+   "book": "bpt6k15202315",
+   "page": "f59",
+   "line_id": "line_11"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f21",
+   "line_id": "eSc_line_19be3728"
+  },
+  {
+   "book": "bpt6k15202315",
+   "page": "f47",
+   "line_id": "line_25"
+  },
+  {
+   "book": "bpt6k8710026t",
+   "page": "bpt6k8710026t_f12",
+   "line_id": "eSc_line_9c00d812"
+  },
+  {
+   "book": "bpt6k8710026t",
+   "page": "bpt6k8710026t_f22",
+   "line_id": "eSc_line_d0a500eb"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f23",
+   "line_id": "eSc_line_f2e2557a"
+  },
+  {
+   "book": "bpt6k324358v",
+   "page": "bpt6k324358v_f50",
+   "line_id": "line_45"
+  }
+ ]
+}

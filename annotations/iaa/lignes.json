@@ -1,0 +1,352 @@
+[
+ {
+  "id": "iaa_000",
+  "image": "data/external/HTR-imprime-gothique-16e-siecle/data/bpt6k1520377h/f36.jpg",
+  "book": "bpt6k1520377h",
+  "page": "f36",
+  "line_id": "line_4"
+ },
+ {
+  "id": "iaa_001",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f20.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f20",
+  "line_id": "line_47"
+ },
+ {
+  "id": "iaa_002",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f18.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f18",
+  "line_id": "line_46"
+ },
+ {
+  "id": "iaa_003",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f24.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f24",
+  "line_id": "line_27"
+ },
+ {
+  "id": "iaa_004",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f23.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f23",
+  "line_id": "line_55"
+ },
+ {
+  "id": "iaa_005",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f23.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f23",
+  "line_id": "line_10"
+ },
+ {
+  "id": "iaa_006",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f21.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f21",
+  "line_id": "line_14"
+ },
+ {
+  "id": "iaa_007",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f20.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f20",
+  "line_id": "line_29"
+ },
+ {
+  "id": "iaa_008",
+  "image": "data/external/HTR-imprime-gothique-16e-siecle/data/bpt6k1520377h/f57.jpg",
+  "book": "bpt6k1520377h",
+  "page": "f57",
+  "line_id": "line_6"
+ },
+ {
+  "id": "iaa_009",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k8713143m/bpt6k8713143m_f31.jpg",
+  "book": "bpt6k8713143m",
+  "page": "bpt6k8713143m_f31",
+  "line_id": "eSc_line_36119496"
+ },
+ {
+  "id": "iaa_010",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f19.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f19",
+  "line_id": "line_92"
+ },
+ {
+  "id": "iaa_011",
+  "image": "data/external/HTR-imprime-gothique-16e-siecle/data/bpt6k1520377h/f15.jpg",
+  "book": "bpt6k1520377h",
+  "page": "f15",
+  "line_id": "line_17"
+ },
+ {
+  "id": "iaa_012",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k8713143m/bpt6k8713143m_f19.jpg",
+  "book": "bpt6k8713143m",
+  "page": "bpt6k8713143m_f19",
+  "line_id": "eSc_line_5d3c64d6"
+ },
+ {
+  "id": "iaa_013",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f18.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f18",
+  "line_id": "line_61"
+ },
+ {
+  "id": "iaa_014",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f18.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f18",
+  "line_id": "line_57"
+ },
+ {
+  "id": "iaa_015",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f20.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f20",
+  "line_id": "line_11"
+ },
+ {
+  "id": "iaa_016",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f22.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f22",
+  "line_id": "line_86"
+ },
+ {
+  "id": "iaa_017",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f23.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f23",
+  "line_id": "line_29"
+ },
+ {
+  "id": "iaa_018",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k8713143m/bpt6k8713143m_f24.jpg",
+  "book": "bpt6k8713143m",
+  "page": "bpt6k8713143m_f24",
+  "line_id": "eSc_line_0a52b032"
+ },
+ {
+  "id": "iaa_019",
+  "image": "data/external/HTR-imprime-gothique-16e-siecle/data/bpt6k1520377h/f16.jpg",
+  "book": "bpt6k1520377h",
+  "page": "f16",
+  "line_id": "line_19"
+ },
+ {
+  "id": "iaa_020",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f18.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f18",
+  "line_id": "line_49"
+ },
+ {
+  "id": "iaa_021",
+  "image": "data/external/HTR-imprime-gothique-16e-siecle/data/bpt6k1520377h/f12.jpg",
+  "book": "bpt6k1520377h",
+  "page": "f12",
+  "line_id": "line_12"
+ },
+ {
+  "id": "iaa_022",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f22.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f22",
+  "line_id": "line_0"
+ },
+ {
+  "id": "iaa_023",
+  "image": "data/external/HTR-imprime-gothique-16e-siecle/data/bpt6k1520377h/f78.jpg",
+  "book": "bpt6k1520377h",
+  "page": "f78",
+  "line_id": "line_22"
+ },
+ {
+  "id": "iaa_024",
+  "image": "data/external/HTR-imprime-gothique-16e-siecle/data/bpt6k1520377h/f37.jpg",
+  "book": "bpt6k1520377h",
+  "page": "f37",
+  "line_id": "line_3"
+ },
+ {
+  "id": "iaa_025",
+  "image": "data/external/HTR-imprime-gothique-16e-siecle/data/bpt6k1520377h/f69.jpg",
+  "book": "bpt6k1520377h",
+  "page": "f69",
+  "line_id": "line_13"
+ },
+ {
+  "id": "iaa_026",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k8713143m/bpt6k8713143m_f15.jpg",
+  "book": "bpt6k8713143m",
+  "page": "bpt6k8713143m_f15",
+  "line_id": "eSc_line_4bdf4efd"
+ },
+ {
+  "id": "iaa_027",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f23.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f23",
+  "line_id": "line_4"
+ },
+ {
+  "id": "iaa_028",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k8713143m/bpt6k8713143m_f19.jpg",
+  "book": "bpt6k8713143m",
+  "page": "bpt6k8713143m_f19",
+  "line_id": "eSc_line_a8ab1d2c"
+ },
+ {
+  "id": "iaa_029",
+  "image": "data/external/HTR-imprime-gothique-16e-siecle/data/bpt6k1520377h/f15.jpg",
+  "book": "bpt6k1520377h",
+  "page": "f15",
+  "line_id": "line_14"
+ },
+ {
+  "id": "iaa_030",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f24.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f24",
+  "line_id": "line_33"
+ },
+ {
+  "id": "iaa_031",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f18.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f18",
+  "line_id": "line_6"
+ },
+ {
+  "id": "iaa_032",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f21.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f21",
+  "line_id": "line_56"
+ },
+ {
+  "id": "iaa_033",
+  "image": "data/external/HTR-imprime-gothique-16e-siecle/data/bpt6k1520377h/f69.jpg",
+  "book": "bpt6k1520377h",
+  "page": "f69",
+  "line_id": "line_6"
+ },
+ {
+  "id": "iaa_034",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k8713143m/bpt6k8713143m_f19.jpg",
+  "book": "bpt6k8713143m",
+  "page": "bpt6k8713143m_f19",
+  "line_id": "eSc_line_b099decf"
+ },
+ {
+  "id": "iaa_035",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f25.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f25",
+  "line_id": "line_74"
+ },
+ {
+  "id": "iaa_036",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f21.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f21",
+  "line_id": "line_48"
+ },
+ {
+  "id": "iaa_037",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f22.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f22",
+  "line_id": "line_79"
+ },
+ {
+  "id": "iaa_038",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f25.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f25",
+  "line_id": "line_67"
+ },
+ {
+  "id": "iaa_039",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f20.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f20",
+  "line_id": "line_9"
+ },
+ {
+  "id": "iaa_040",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f26.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f26",
+  "line_id": "line_67"
+ },
+ {
+  "id": "iaa_041",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f20.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f20",
+  "line_id": "line_18"
+ },
+ {
+  "id": "iaa_042",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f26.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f26",
+  "line_id": "line_25"
+ },
+ {
+  "id": "iaa_043",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f25.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f25",
+  "line_id": "line_82"
+ },
+ {
+  "id": "iaa_044",
+  "image": "data/external/HTR-imprime-gothique-16e-siecle/data/bpt6k1520377h/f17.jpg",
+  "book": "bpt6k1520377h",
+  "page": "f17",
+  "line_id": "line_2"
+ },
+ {
+  "id": "iaa_045",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f24.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f24",
+  "line_id": "line_4"
+ },
+ {
+  "id": "iaa_046",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f18.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f18",
+  "line_id": "line_90"
+ },
+ {
+  "id": "iaa_047",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k8713143m/bpt6k8713143m_f23.jpg",
+  "book": "bpt6k8713143m",
+  "page": "bpt6k8713143m_f23",
+  "line_id": "eSc_line_094c56a0"
+ },
+ {
+  "id": "iaa_048",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k8713143m/bpt6k8713143m_f31.jpg",
+  "book": "bpt6k8713143m",
+  "page": "bpt6k8713143m_f31",
+  "line_id": "eSc_line_a9e0a5ae"
+ },
+ {
+  "id": "iaa_049",
+  "image": "data/external/HTR-incunable-15e-siecle/data/bpt6k1057722q/bpt6k1057722q_f20.jpg",
+  "book": "bpt6k1057722q",
+  "page": "bpt6k1057722q_f20",
+  "line_id": "line_74"
+ }
+]

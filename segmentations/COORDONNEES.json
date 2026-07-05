@@ -1,0 +1,9 @@
+{
+ "origin": "top-left",
+ "unit": "pixel",
+ "x_axis": "right",
+ "y_axis": "down",
+ "reference": "image de la page référencée par le champ `image`, à sa résolution d'origine",
+ "format": "PAGE XML 2019 (kraken), une page par fichier",
+ "images": "data/images/page_XXX.png (PDF Gallica rendu à 300 DPI)"
+}

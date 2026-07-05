@@ -1,0 +1,66 @@
+{
+ "meilleur": "mcfrench",
+ "regle": "meilleur CER de validation parmi les mod\u00e8les sans recouvrement document\u00e9 avec le corpus (config.KRAKEN_CONTAMINATION)",
+ "modeles": {
+  "catmus_print_large": {
+   "lignes": 1750,
+   "cer": 0.09327668496703176,
+   "cer_ic95": [
+    0.09042882879951636,
+    0.0964894312400543
+   ],
+   "wer": 0.3959249180099086,
+   "par_livre": {
+    "bpt6k15202315": 0.09058411925768178,
+    "bpt6k324358v": 0.10012059493501273,
+    "bpt6k8710026t": 0.07249802994483845
+   },
+   "contamination": "incertain"
+  },
+  "gallicorpora_prints": {
+   "lignes": 1750,
+   "cer": 0.06194995447899136,
+   "cer_ic95": [
+    0.059702596430091966,
+    0.06441902022307795
+   ],
+   "wer": 0.2971879143116321,
+   "par_livre": {
+    "bpt6k15202315": 0.046432917554000606,
+    "bpt6k324358v": 0.07064183304301219,
+    "bpt6k8710026t": 0.07137228413824158
+   },
+   "contamination": "contamine"
+  },
+  "latin_incunabula": {
+   "lignes": 1750,
+   "cer": 0.1269208486219549,
+   "cer_ic95": [
+    0.12391389090467952,
+    0.13010346687901994
+   ],
+   "wer": 0.4988486497801968,
+   "par_livre": {
+    "bpt6k15202315": 0.09940675387891694,
+    "bpt6k324358v": 0.14969851266246817,
+    "bpt6k8710026t": 0.11268715524034673
+   },
+   "contamination": "incertain"
+  },
+  "mcfrench": {
+   "lignes": 1750,
+   "cer": 0.08301376665655089,
+   "cer_ic95": [
+    0.08014657285309883,
+    0.08593707460973438
+   ],
+   "wer": 0.36187286302421323,
+   "par_livre": {
+    "bpt6k15202315": 0.07655156677821721,
+    "bpt6k324358v": 0.09167894948412167,
+    "bpt6k8710026t": 0.06574355510525723
+   },
+   "contamination": "propre"
+  }
+ }
+}

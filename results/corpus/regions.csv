@@ -1,0 +1,10 @@
+,test,train,val
+DropCapitalZone,12,105,32
+GraphicZone,14,100,12
+MainZone,49,211,50
+MarginTextZone,1,7,0
+NumberingZone,6,11,5
+QuireMarksZone,9,33,14
+RunningTitleZone,26,0,10
+StampZone,5,9,3
+TitlePageZone,1,1,0

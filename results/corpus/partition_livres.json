@@ -1,0 +1,18 @@
+{
+ "bpt6k10516302": "train",
+ "bpt6k1057722q": "test",
+ "bpt6k1057726c": "train",
+ "bpt6k15202315": "val",
+ "bpt6k1520377h": "test",
+ "bpt6k1521441j": "train",
+ "bpt6k15223596": "train",
+ "bpt6k15260973": "train",
+ "bpt6k324358v": "val",
+ "bpt6k8710026t": "val",
+ "bpt6k8713143m": "test",
+ "btv1b8600118k": "train",
+ "btv1b8600143n": "train",
+ "btv1b8600164t": "train",
+ "btv1b8626772v": "train",
+ "btv1b8626779r": "train"
+}

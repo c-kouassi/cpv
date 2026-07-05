@@ -1,0 +1,160 @@
+ketos --workers 0 -d mps -s 42 segtrain -f alto -i /private/tmp/claude-501/-Users-chocobain-Downloads-projet-VIT-NLP-main/fcd92b0a-11ac-4836-89a6-27a78e19a541/scratchpad/venv_htr/lib/python3.12/site-packages/kraken/blla.mlmodel --resize union -q early --lag 4 --min-epochs 8 -N 20 --augment -o /Users/chocobain/Downloads/projet_VIT_NLP-main/models/kraken/segmentation -t /Users/chocobain/Downloads/projet_VIT_NLP-main/data/corpus/train.txt -e /Users/chocobain/Downloads/projet_VIT_NLP-main/data/corpus/val.txt
+                     Training Class Summary                     
+┏━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┳━━━━━━━━━━━━━┳━━━━━━━┓
+┃ Category  ┃ Class        ┃ Label Index ┃ Merged With ┃ Count ┃
+┡━━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━━━━╇━━━━━━━━━━━━━╇━━━━━━━┩
+│ baselines │ default      │           2 │             │  6873 │
+│ regions   │ texte        │           3 │             │   212 │
+│ regions   │ illustration │           4 │             │   214 │
+│ regions   │ paratexte    │           5 │             │    51 │
+└───────────┴──────────────┴─────────────┴─────────────┴───────┘
+GPU available: True (mps), used: True
+TPU available: False, using: 0 TPU cores
+💡 Tip: For seamless cloud logging and experiment tracking, try installing [litlogger](https://pypi.org/project/litlogger/) to enable LitLogger, which logs metrics and artifacts automatically to the Lightning Experiments platform.
+`Trainer(val_check_interval=1.0)` was configured so validation will run at the end of the training epoch..
+Loading from checkpoint /private/tmp/claude-501/-Users-chocobain-Downloads-projet-VIT-NLP-main/fcd92b0a-11ac-4836-89a6-27a78e19a541/scratchpad/venv_htr/lib/python3.12/site-packages/kraken/blla.mlmodel.
+[10/16/26 18:42:34] WARNING  Changing baseline location from unset   blla.py:597
+                             to baseline.                                       
+┏━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━━┳━━━━━━━━┳━━━━━━━━━┓
+┃   ┃                   ┃         ┃        ┃       ┃        ┃     In ┃     Out ┃
+┃   ┃ Name              ┃ Type    ┃ Params ┃ Mode  ┃  FLOPs ┃  sizes ┃   sizes ┃
+┡━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━━╇━━━━━━━━╇━━━━━━━━━┩
+│ 0 │ net               │ TorchV… │  1.3 M │ train │ 77.4 B │ [1, 3, │ [[1, 7, │
+│   │                   │         │        │       │        │  1800, │    450, │
+│   │                   │         │        │       │        │   300] │    75], │
+│   │                   │         │        │       │        │        │    '?'] │
+│ 1 │ net.nn            │ MultiP… │  1.3 M │ train │ 77.4 B │   [[1, │ [[1, 7, │
+│   │                   │         │        │       │        │     3, │    450, │
+│   │                   │         │        │       │        │  1800, │    75], │
+│   │                   │         │        │       │        │  300], │    '?'] │
+│   │                   │         │        │       │        │   '?'] │         │
+│ 2 │ net._aux_layers   │ Module… │      0 │ train │      0 │      ? │       ? │
+│ 3 │ net.criterion     │ BCEWit… │      0 │ train │      0 │      ? │       ? │
+│ 4 │ criterion         │ BCEWit… │      0 │ train │      0 │      ? │       ? │
+│ 5 │ dice              │ SoftDi… │      0 │ train │      0 │      ? │       ? │
+│ 6 │ val_px_accuracy   │ Multil… │      0 │ train │      0 │      ? │       ? │
+│ 7 │ val_mean_accuracy │ Multil… │      0 │ train │      0 │      ? │       ? │
+│ 8 │ val_mean_iu       │ Multil… │      0 │ train │      0 │      ? │       ? │
+│ 9 │ val_freq_iu       │ Multil… │      0 │ train │      0 │      ? │       ? │
+└───┴───────────────────┴─────────┴────────┴───────┴────────┴────────┴─────────┘
+Trainable params: 1.3 M                                                         
+Non-trainable params: 0                                                         
+Total params: 1.3 M                                                             
+Total estimated model params size (MB): 5                                       
+Modules in train mode: 44                                                       
+Modules in eval mode: 0                                                         
+Total FLOPs: 77.4 B                                                             
+stage 0/∞ ━━━━━━━━━━━━ 134/134 0:05:43 •    0.41it/s train_loss_s… early_stoppi…
+                               0:00:00               0.439         0/4 0.32083  
+                                                     val_accuracy:              
+                                                     0.987                      
+                                                     val_mean_acc:              
+                                                     0.987                      
+                                                     val_mean_iu:               
+                                                     0.321                      
+                                                     val_freq_iu:               
+                                                     0.886                      
+                                                     val_bl_f1:                 
+                                                     0.976                      
+                                                     train_loss_e…              
+                                                     0.559                      
+stage 1/∞ ━━━━━━━━━━━━ 134/134 0:05:51 •    0.28it/s train_loss_s… early_stoppi…
+                               0:00:00               0.660         0/4 0.33445  
+                                                     val_accuracy:              
+                                                     0.989                      
+                                                     val_mean_acc:              
+                                                     0.989                      
+                                                     val_mean_iu:               
+                                                     0.334                      
+                                                     val_freq_iu:               
+                                                     0.891                      
+                                                     val_bl_f1:                 
+                                                     0.978                      
+                                                     train_loss_e…              
+                                                     0.427                      
+stage 2/∞ ━━━━━━━━━━━━ 134/134 0:06:11 •    0.37it/s train_loss_s… early_stoppi…
+                               0:00:00               0.358         0/4 0.35938  
+                                                     val_accuracy:              
+                                                     0.988                      
+                                                     val_mean_acc:              
+                                                     0.988                      
+                                                     val_mean_iu:               
+                                                     0.359                      
+                                                     val_freq_iu:               
+                                                     0.889                      
+                                                     val_bl_f1:                 
+                                                     0.981                      
+                                                     train_loss_e…              
+                                                     0.382                      
+stage 3/∞ ━━━━━━━━━━━━ 134/134 0:05:59 •    0.36it/s train_loss_s… early_stoppi…
+                               0:00:00               0.424         1/4 0.35938  
+                                                     val_accuracy:              
+                                                     0.988                      
+                                                     val_mean_acc:              
+                                                     0.988                      
+                                                     val_mean_iu:               
+                                                     0.349                      
+                                                     val_freq_iu:               
+                                                     0.887                      
+                                                     val_bl_f1:                 
+                                                     0.981                      
+                                                     train_loss_e…              
+                                                     0.366                      
+stage 4/∞ ━━━━━━━━━━━━ 134/134 0:06:08 •    0.38it/s train_loss_s… early_stoppi…
+                               0:00:00               0.357         2/4 0.35938  
+                                                     val_accuracy:              
+                                                     0.989                      
+                                                     val_mean_acc:              
+                                                     0.989                      
+                                                     val_mean_iu:               
+                                                     0.354                      
+                                                     val_freq_iu:               
+                                                     0.891                      
+                                                     val_bl_f1:                 
+                                                     0.982                      
+                                                     train_loss_e…              
+                                                     0.353                      
+stage 5/∞ ━━━━━━━━━━━━ 134/134 0:05:54 •    0.40it/s train_loss_s… early_stoppi…
+                               0:00:00               0.349         3/4 0.35938  
+                                                     val_accuracy:              
+                                                     0.987                      
+                                                     val_mean_acc:              
+                                                     0.987                      
+                                                     val_mean_iu:               
+                                                     0.346                      
+                                                     val_freq_iu:               
+                                                     0.889                      
+                                                     val_bl_f1:                 
+                                                     0.980                      
+                                                     train_loss_e…              
+                                                     0.344                      
+stage 6/∞ ━━━━━━━━━━━━ 134/134 0:05:48 •    0.41it/s train_loss_s… early_stoppi…
+                               0:00:00               0.333         4/4 0.35938  
+                                                     val_accuracy:              
+                                                     0.988                      
+                                                     val_mean_acc:              
+                                                     0.988                      
+                                                     val_mean_iu:               
+                                                     0.352                      
+                                                     val_freq_iu:               
+                                                     0.897                      
+                                                     val_bl_f1:                 
+                                                     0.982                      
+                                                     train_loss_e…              
+                                                     0.335                      
+Trainer was signaled to stop but the required `min_epochs=8` or `min_steps=None` has not been met. Training will continue...
+stage 7/∞ ━━━━━━━━━━━━ 134/134 0:06:05 •    0.37it/s train_loss_s… early_stoppi…
+                               0:00:00               0.311         5/4 0.35938  
+                                                     val_accuracy:              
+                                                     0.988                      
+                                                     val_mean_acc:              
+                                                     0.988                      
+                                                     val_mean_iu:               
+                                                     0.348                      
+                                                     val_freq_iu:               
+                                                     0.889                      
+                                                     val_bl_f1:                 
+                                                     0.971                      
+                                                     train_loss_e…              
+                                                     0.323                      
+Converting best model /Users/chocobain/Downloads/projet_VIT_NLP-main/models/kraken/segmentation/checkpoint_02-0.3594.ckpt (score: 0.3594) to weights /Users/chocobain/Downloads/projet_VIT_NLP-main/models/kraken/segmentation/best_0.3594.safetensors

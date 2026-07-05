@@ -1,0 +1,25 @@
+# Environnements et caches
+.venv*/
+venv*/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Données externes et volumineuses (régénérées par les scripts, voir README)
+data/external/
+data/raw/
+data/images/
+data/processed/
+data/corpus/*/
+data/corpus/*.jsonl
+
+# Modèles : seuls les modèles finaux sont versionnés
+models/kraken/*.mlmodel
+!models/kraken/charles8_htr_ft.mlmodel
+models/kraken/htr_ft/*.ckpt
+models/kraken/segmentation/*.ckpt
+models/kraken/segmentation_essai_resize_new/
+
+# Images de lignes à annoter (régénérées par s08 prepare)
+annotations/*/lignes/

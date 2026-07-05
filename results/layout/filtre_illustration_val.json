@@ -1,0 +1,43 @@
+{
+ "adopte": false,
+ "seuil": 0.5,
+ "pretraitement": "redresse",
+ "pages_val": 40,
+ "resultats": {
+  "sans_filtre": {
+   "lignes_reference": 1750,
+   "cer": 0.02869202968521533,
+   "cer_ic95": [
+    0.025911404428423372,
+    0.032367177600354756
+   ],
+   "wer": 0.15763031191124136,
+   "iou_lignes_moyenne": 0.8260725664356399,
+   "part_lignes_iou_sup_seuil": 0.9742857142857143,
+   "detection_f1_moyen": 0.9734976305782658,
+   "iou_zones": {
+    "texte": 0.9182988568095813,
+    "illustration": 0.39452425058792273,
+    "paratexte": 0.0
+   }
+  },
+  "filtre_geometrique": {
+   "lignes_reference": 1750,
+   "cer": 0.028843766380665985,
+   "cer_ic95": [
+    0.025804590576295926,
+    0.03237720884480252
+   ],
+   "wer": 0.15707208150163982,
+   "iou_lignes_moyenne": 0.8255400391662513,
+   "part_lignes_iou_sup_seuil": 0.9737142857142858,
+   "detection_f1_moyen": 0.9777078771288265,
+   "iou_zones": {
+    "texte": 0.9182988568095813,
+    "illustration": 0.39452425058792273,
+    "paratexte": 0.0
+   }
+  }
+ },
+ "regle": "adopté si le CER de bout en bout de validation n'augmente pas"
+}
